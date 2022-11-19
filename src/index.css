@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .header {
+      @apply fixed top-0 z-50 flex w-full items-center justify-between transition-all px-28 py-4 ;
+  }
+}
+@layer components {
+  .nav-link {
+      @apply cursor-pointer text-[1.3rem] font-semibold text-white transition duration-[.2s] hover:text-[#EB8C1A];
+  }
+  .active {
+      @apply text-[#EB8C1A]
+  }
+  .inactive {
+      @apply text-white
+  }
+
+  .services {
+    @apply font-bold text-white my-3 xs:text-[1.3rem] sm:text-[1.1rem] sm:my-1 lg:text-[1.3rem]
+  }
+  .services-text {
+    @apply text-[#e9eaef] text-[.8rem] mb-6 sm:text-[.7rem] md:text-[.75rem] sm:mb-3 lg:text-[.83rem]
+  }
+
+  .popular1 {
+    @apply h-[12rem] lg:h-[14rem] bg-cover rounded-lg mb-6 flex items-end text-white px-4 pb-2 font-semibold text-[1.3rem] w-10/12 xs:w-9/12 sm:w-[48%] lg:w-[47%]
+  }
+
+  .popular2 {
+    @apply h-[12rem] lg:h-[14rem] bg-cover rounded-lg mb-6 flex items-end text-white px-4 pb-2 font-semibold text-[1.3rem] w-10/12 xs:w-9/12 sm:w-[48%] sm:mr-4 md:mr-6 lg:w-[47%] lg:mr-12
+  }
+}
