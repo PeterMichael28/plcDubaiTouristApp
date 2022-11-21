@@ -16,7 +16,8 @@ const Nav = ({navbarOpen, setNavbarOpen}) => {
      <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
       <li className="nav-link">
        <NavLink
-        to="/"
+        to="/plcDubaiTouristApp
+        "
         end
         className={`px-3 py-1 flex items-center backdrop:hover:opacity-75 ${({
          isActive,

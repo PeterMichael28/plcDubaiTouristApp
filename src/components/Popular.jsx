@@ -23,7 +23,7 @@ const Popular = () => {
                   className='popular1'
                   style={ { backgroundImage: `url(${ img4 })` } }>Sheik Saeed Al-Maktoum House</div>
           </div>
-          <a href="#">VIEW MORE <BsArrowRight /></a>
+          <a href="#" className='flex text-[#F58B8C] justify-end w-[95%] items-center text-[.9rem] font-semibold'>VIEW MORE <BsArrowRight className='ml-3' /></a>
     </section>
   )
 }

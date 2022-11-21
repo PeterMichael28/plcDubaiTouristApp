@@ -13,11 +13,11 @@ function App() {
   return (
     <>
     <Routes>
-     <Route path="/" element={<Layout />}>
+     <Route path="/plcDubaiTouristApp/" element={<Layout />}>
       <Route index element={<Homepage />} />
-      <Route path="/service" element={<Service />} />
-      <Route path="/accommodation" element={<Accomodation />} />
-      <Route path="/offers" element={<Offers />} />
+      <Route path="/plcDubaiTouristApp/service" element={<Service />} />
+      <Route path="/plcDubaiTouristApp/accommodation" element={<Accomodation />} />
+      <Route path="/plcDubaiTouristApp/offers" element={<Offers />} />
      </Route>
     </Routes>
    </>
