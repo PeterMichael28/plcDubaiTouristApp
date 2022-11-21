@@ -30,7 +30,7 @@ const Nav = ({navbarOpen, setNavbarOpen}) => {
       
       <li className="nav-link">
        <NavLink
-        to="/service"
+        to="/plcDubaiTouristApp/service"
         className={`px-3 py-1 flex items-center hover:opacity-75 ${({
          isActive
         }) => (isActive ? "active" : "inactive")}`} // setting the active class
@@ -42,7 +42,7 @@ const Nav = ({navbarOpen, setNavbarOpen}) => {
       
        <li className="nav-link">
        <NavLink
-        to="/accommodation"
+        to="/plcDubaiTouristApp/accommodation"
         className={`px-3 py-1 flex items-center hover:opacity-75 ${({
          isActive,
         }) => (isActive ? "active" : "inactive")}`} // setting the active class
@@ -54,7 +54,7 @@ const Nav = ({navbarOpen, setNavbarOpen}) => {
           
       <li className="nav-link">
        <NavLink
-        to="/offers"
+        to="/plcDubaiTouristApp/offers"
         className={`px-3 py-1 flex items-center mr-6 hover:opacity-75 ${({
          isActive,
         }) => (isActive ? "active" : "inactive")}`} // setting the active class

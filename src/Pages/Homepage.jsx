@@ -12,7 +12,7 @@ const Homepage = () => {
       <OurServices />
       <Popular />
       <Attractions />
-      <HomeBanner />
+      <HomeBanner text='WE HAVE THE BEST OFFER DESIGNED FOR YOU' btn='true' />
     </main>
   )
 }
