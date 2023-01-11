@@ -18,6 +18,7 @@ function App() {
       <Route path="/plcDubaiTouristApp/service" element={<Service />} />
       <Route path="/plcDubaiTouristApp/accommodation" element={<Accomodation />} />
       <Route path="/plcDubaiTouristApp/offers" element={<Offers />} />
+     
      </Route>
     </Routes>
    </>

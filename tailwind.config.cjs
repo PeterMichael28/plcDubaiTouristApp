@@ -16,5 +16,5 @@ module.exports = {
      display: ["Montserrat", "sans-serif"],
     },
    },
-  plugins: [],
+  plugins: [require('tw-elements/dist/plugin')],
 }

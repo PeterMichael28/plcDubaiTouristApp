@@ -19,9 +19,9 @@ const Hero = () => {
         <Button text='Get Started'/>
     </div>
     <div className='hidden md:flex md:w-auto relative w-100'>
-        <img src={img1} alt="" className='md:w-[18rem] h-[18rem] boxs2 object-cover rounded-md' />
-        <img src={img3} alt="" className='absolute md:w-[17rem] h-[22rem] left-[25%] -top-8 boxs rounded-md'/>
-        <img src={img2} alt="" className='md:w-[18rem] h-[18rem] boxs2 object-cover rounded-md'/>
+        <img src={img1} loading="lazy" alt="" className='md:w-[18rem] h-[18rem] boxs2 object-cover rounded-md' />
+        <img src={img3} loading="lazy" alt="" className='absolute md:w-[17rem] h-[22rem] left-[25%] -top-8 boxs rounded-md'/>
+        <img src={img2} loading="lazy" alt="" className='md:w-[18rem] h-[18rem] boxs2 object-cover rounded-md'/>
     </div>
         
     </div>
